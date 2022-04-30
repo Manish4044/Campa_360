@@ -1,0 +1,51 @@
+/* College Card */
+.college-card{
+    display:flex;
+    border:1px solid grey;
+    padding: 20px;
+    margin: 20px 0;
+}
+.college-card > .college-image{
+    flex: 0.3;
+    background: url("https://images.pexels.com/photos/256490/pexels-photo-256490.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.college-info{
+    flex:0.6;
+}
+.college-card .heading{
+    font-size: 25px;
+    font-weight: 500;
+    margin:0 0 5px;
+}
+.college-location{
+    margin: 10px 0;
+}
+.extras{
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+.extras button{
+    margin-left: 10px;
+    background-color: #0277BD;
+    padding: 5px 10px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    font-size:12px;
+    color:white;
+    cursor:pointer;
+}
+.item{
+    margin-left: 10px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+/* End College Card */
